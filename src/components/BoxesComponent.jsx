@@ -21,6 +21,7 @@ const BigBox = (props) => {
       }}
     >
       Big Box
+      <SmallBox />
     </div>
   );
 };

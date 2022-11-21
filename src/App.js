@@ -2,6 +2,7 @@ import "./App.css";
 import { BigBox, ParagraphBox, SmallBox } from "./components/BoxesComponent";
 import ButtonComponent from "./components/ButtonComponent";
 import ImageComponent from "./components/ImageComponent";
+import ClassBasedApp from "./components/SampleClassBasedComponent";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </div>
       {/* <ParagraphComponent p1Color="blue" p2Color="green" p3Color="yellow" /> */}
       <ParagraphBox />
+      <ClassBasedApp />
     </div>
   );
 }
