@@ -1,5 +1,5 @@
 import "./App.css";
-import { BigBox, SmallBox } from "./components/BoxesComponent";
+import { BigBox, ParagraphBox, SmallBox } from "./components/BoxesComponent";
 import ButtonComponent from "./components/ButtonComponent";
 import ImageComponent from "./components/ImageComponent";
 
@@ -13,8 +13,10 @@ function App() {
       />
       <div>
         <SmallBox />
-        <BigBox />
+        <BigBox customBgColor="red" />
       </div>
+      {/* <ParagraphComponent p1Color="blue" p2Color="green" p3Color="yellow" /> */}
+      <ParagraphBox />
     </div>
   );
 }
